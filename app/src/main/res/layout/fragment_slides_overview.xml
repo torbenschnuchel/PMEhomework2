@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="de.uni_passau.fim.eislab.pme.schnuchel.lectureapp.SlidesOverViewFragment"
+    android:padding="10dp">
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/slidesListView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/slides_list_view_divider_height" />
+
+</RelativeLayout>

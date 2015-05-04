@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material">
+
+        <!-- enable window content transitions -->
+        <item name="android:windowContentTransitions">true</item>
+
+        <!-- specify enter and exit transitions -->
+        <item name="android:windowEnterTransition">@transition/fade_right</item>
+        <item name="android:windowExitTransition">@transition/fade_left</item>
+
+        <!-- specify color palettes -->
+        <item name = "android:colorPrimary">#ff77c1ab</item>
+        <item name = "android:colorPrimaryDark">#ff94a7ff</item>
+        <item name = "android:colorAccent">#ffdd8479</item>
+
+        <!-- specify shared element transitions
+        <item name="android:windowSharedElementEnterTransition">
+            @transition/change_image_transform</item>
+        <item name="android:windowSharedElementExitTransition">
+            @transition/change_image_transform</item>-->
+    </style>
+</resources>
